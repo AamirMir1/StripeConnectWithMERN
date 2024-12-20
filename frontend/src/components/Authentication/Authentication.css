@@ -1,0 +1,38 @@
+.main-auth-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+}
+.auth-buttons-container {
+  display: flex;
+  gap: 1rem;
+}
+.auth-buttons-container > button {
+  border: none;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  flex: 1;
+  padding: 0.7rem 1.4rem;
+}
+
+.form-container {
+  height: 40vh;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.auth-form > input {
+  padding: 0.3rem 1.3rem;
+  margin-block: 5px;
+  outline: none;
+}
+
+.auth-form > input[type="submit"] {
+}
